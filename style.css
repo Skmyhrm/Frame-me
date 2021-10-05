@@ -1,1 +1,52 @@
+.top,
+.footer {
+  background-color: #1f2937;
+}
 
+.logo {
+  font-family: cursive;
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 800;
+}
+
+.main-text {
+  font-size: 48px;
+  font-weight: 800;
+  color: #f9faf8;
+}
+
+.sec-text,
+a {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero-button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  width: 80px;
+}
+
+.info-header {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.cta {
+  background-color: #3882f6;
+  color: #f9faf8;
+}
+
+.cta-main {
+  font-size: 20px;
+  font-weight: 600;
+}
