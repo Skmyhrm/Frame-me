@@ -1,16 +1,28 @@
+* {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+html {
+  margin-top: 0px;
+}
 body {
   margin: 0;
   padding: 0;
   background-color: #f9faf8;
+  font-family: cursive;
 }
 .top,
 .footer {
   background-color: #1f2937;
 }
 
+.footer {
+  margin-bottom: 0px;
+}
+
 .header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .logo {
@@ -25,46 +37,143 @@ body {
   padding-right: 10px;
   display: flex;
   justify-content: space-around;
-  gap: 8px;
+  gap: 15px;
+}
+
+.links :hover {
+  color: red;
 }
 
 .main-text {
   font-size: 48px;
   font-weight: 800;
   color: #f9faf8;
+  width: 500px;
 }
 
 .sec-text,
 a {
   font-size: 18px;
   color: #e5e7eb;
+  text-decoration: none;
 }
 
 .hero-button {
+  border: 0px;
+  font-weight: 600;
   background-color: #3882f6;
   color: #f9faf8;
-  width: 80px;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
 }
 
 .info-header {
   font-size: 36px;
   font-weight: 800;
   color: #1f2937;
+  display: flex;
+  justify-content: center;
 }
 
 .quote {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
   background-color: #e5e7eb;
   font-size: 36px;
   font-weight: 300;
   font-style: italic;
 }
+.saying {
+  width: 800px;
+  margin-bottom: 0px;
+}
 
+.sayer {
+  margin-top: 0px;
+  align-self: flex-end;
+  padding-right: 300px;
+}
 .cta {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.cta-content {
+  display: flex;
+  justify-content: space-around;
+  width: 800px;
+  border-radius: 10px;
   background-color: #3882f6;
   color: #f9faf8;
+}
+
+.cta-sec {
+  margin-top: 0;
+  font-size: medium;
+  font-weight: 300;
 }
 
 .cta-main {
   font-size: 20px;
   font-weight: 600;
+  margin-bottom: 0px;
+}
+
+.cta-button {
+  border: solid white;
+  align-self: center;
+  font-weight: 600;
+  background-color: #3882f6;
+  color: #f9faf8;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.left-hero {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+}
+
+.sec-text {
+  width: 500px;
+}
+
+.main-pic {
+  width: 400px;
+  height: auto;
+  border-radius: 2px;
+}
+
+.sec-pic {
+  width: 100px;
+  height: auto;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-content {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  color: #f9faf8;
 }
